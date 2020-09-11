@@ -1,0 +1,5 @@
+The main advantages of IndexedDB.
+* It stores the data as Key-Pair values
+* It is asynchronous
+* It is non-relational
+* Can access the data from the same domain

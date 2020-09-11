@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head runat="server">
+    <title>HTML Basic Structure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            border: 5px solid #7f7f7f;
+            background: orange;
+            text-align: center;
+        }
+
+        .header {
+            margin: 0px 15px 5px 15px;
+            height: 120px;
+            width: 560px;
+            border: 5px solid #7f7f7f;
+            background: #c3c3c3;
+        }
+
+        .nav {
+            width: 530px;
+            height: 40px;
+            margin: 0px 10px 0px 10px;
+            border: 2px solid #7f7f7f;
+            background: #c3c3c3;
+        }
+
+        .wrapper {
+            width: 560px;
+            height: 300px;
+            margin: auto;
+            border: 5px solid #7f7f7f;
+            background: #c3c3c3;
+            text-align: center;
+        }
+
+        .content {
+            float: left;
+            margin: 0px 5px 5px 5px;
+            height: 220px;
+            width: 320px;
+            border: 5px solid #7f7f7f;
+            background: #c3c3c3;
+        }
+
+        .subcontent {
+            border: 2px solid #7f7f7f;
+            width: 305px;
+            height: 50px;
+            margin: 10px 5px;
+        }
+
+        .sidebar {
+            margin: 0px 8px 6px 8px;
+            float: right;
+            width: 190px;
+            height: 220px;
+            border: 5px solid #7f7f7f;
+            background: #c3c3c3;
+        }
+
+        .footer {
+            width: 560px;
+            height: 60px;
+            margin: 5px 15px;
+            border: 5px solid #7f7f7f;
+            background: #c3c3c3;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--container-->
+            <div class="container">
+                <h2>Container</h2>
+
+                <!--header-->
+                <div class="header">
+                    <h2>
+                        Header
+                    </h2>
+
+                    <!--nav bar-->
+                    <div class="nav">
+                        <h3>
+                            Nav Bar
+                        </h3>
+                    </div>
+                    <!--end nav bar-->
+                </div>
+                <!--end header-->
+
+                <!--wrapper-->
+                <div class="wrapper">
+                    <h2>
+                        Wrapper
+                    </h2>
+
+                    <!--content-->
+                    <div class="content">
+                        <h2>
+                            Content
+                        </h2>
+                        <!--end subcontent-->
+                        <div class="subcontent">
+                            <h2>
+                                subcontent1
+                            </h2>
+                        </div>
+                        <div class="subcontent">
+                            <h2>
+                                subcontent2
+                            </h2>
+                        </div>
+                        <!--end subcontent-->
+                    </div>
+                    <!--end content-->
+
+                    <!--sidebar-->
+                    <div class="sidebar">
+                        <h2>
+                            sidebar
+                        </h2>
+                    </div>
+                    <!--end sidebar-->
+                </div>
+                <!--end wrapper-->
+
+                <!--start footer-->
+                <div class="footer">
+                    <h2>
+                        footer
+                    </h2>
+                </div>
+                <!--end footer-->
+            </div>
+            <!--end container-->
+        </div>
+    </form>
+</body>
+
+</html>
